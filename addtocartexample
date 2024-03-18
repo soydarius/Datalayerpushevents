@@ -1,0 +1,17 @@
+<script type='text/javascript'>		
+window.dataLayer = window.dataLayer || [];		
+window.dataLayer.push({		
+   event: 'add_to_cart',		
+   ecommerce: {		
+        value: {{value here}},		
+        currency: '{{currency here}}',		
+        items: [{  		
+            item_name: '{{item name here}}',		
+            item_id: '{{item sku here}}',		
+            item_category: '{{item category here}}',		
+             price: {{item price here}},		
+             quantity: {{item quantity here}}		
+          }]		
+     }     		
+});		
+</script>		
